@@ -1,0 +1,21 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  font-size: 18;
+}
+
+.dark {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.border {
+  border-radius: 10;
+  border-width: 1;
+  border-color: #ffffff;
+}
